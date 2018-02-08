@@ -1,34 +1,154 @@
 {
    "categories": {
       "service-coffin": [
-         {},
-         {},
-         {},
-         {},
-         {},
-         {},
-         {},
-         {}
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""            
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         }
       ],
       "service-card-games": [
-         {},
-         {},
-         {},
-         {},
-         {},
-         {},
-         {},
-         {}
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         }
       ],
       "service-wifi": [
-         {},
-         {},
-         {},
-         {},
-         {},
-         {},
-         {},
-         {}
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""            
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         },
+         {
+            "Name": "",
+            "Image": "",
+            "Desc": "",
+            "Price": ""
+         }
       ]
    }
 }
