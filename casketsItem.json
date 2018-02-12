@@ -1,6 +1,6 @@
 {
     "services_caskets": [
-        ["Buy a casket from our latest collection", "Latest collection: Death is Divine", "2,000.00 USD", ""],
+        ["Buy a casket from our latest collection", "Latest collection: Death is Divine", "2,000.00 USD", "public/images/lastestCollection.jpg"],
         ["Create your own casket", "Create your own casket from our creator", "2,800.00 USD", ""],
         ["Special Dinotopica Casket", "Our special casket is pricey, but when you enter it and come out, you'll be free!", "3,000.00 USD", ""],
         ["Tanning Casket", "THis is a sun tanning bed modeled after a casket. Just hop in... and tan", "3,500.00 USD", ""],

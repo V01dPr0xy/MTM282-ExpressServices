@@ -1,8 +1,7 @@
 extends layout
 block links
-    link(href="servicesDetail.css" rel="stylesheet")
+    link(href="style/servicesDetail.css" rel="stylesheet")
 block content
-<<<<<<< HEAD
     doctype html
     html
         head
@@ -12,22 +11,20 @@ block content
                     //- img.serviceImage(src="images/cremationUrns.png" width="100" height="80")
                     div(class='service_items')
 
-                            img(src="images/lastestCollection.jpg", alt="Urn")
+                            //- img(src="images/lastestCollection.jpg", alt="Urn")
                             li(id=item[0]) #{item[0]}
 
-                            img(src="images/dinotopia.jpg", alt="Urn")
+                            //- img(src="images/dinotopia.jpg", alt="Urn")
                             li(id=item[2]) #{item[2]}
 
-                            img(src="images/sunBathingCoffin.png", alt="Urn")
+                            //- img(src="images/sunBathingCoffin.png", alt="Urn")
                             li(id=item[3]) #{item[3]}
-=======
-    div
-        each taco in casketsItem
-            div(class='service_items')
-                each item in taco
-                    img.serviceImage(src= item[3])
-                    ul
-                        li(id=item[0]) #{item[0]}
-                        li(id=item[1]) #{item[1]}
-                        li(id=item[2]) #{item[2]}
->>>>>>> origin/master
+    //- div
+    //-     each taco in casketsItem
+    //-         div(class='service_items')
+    //-             each item in taco
+    //-                 img.serviceImage(src= item[3])
+    //-                 ul
+    //-                     li(id=item[0]) #{item[0]}
+    //-                     li(id=item[1]) #{item[1]}
+    //-                     li(id=item[2]) #{item[2]}
