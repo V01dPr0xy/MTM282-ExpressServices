@@ -1,0 +1,12 @@
+{
+    "services_wifi": [
+        ["Internet", "Sad Boy Package, Customer gets 7.3 Mbps.", "10.00 USD", ""],
+        ["Faster Internet", "Super Boy Package, Customer gets 10.9 Mbps.", "20.00 USD", ""],
+        ["Giga Internet", "Mega Girl Package, Customer gets 25.5 Mbps.", "35.00 USD", ""],
+        ["Sonic Internet", "Ultra Girl Package, Customer gets 28.1 Mbps.", "80.00 USD", ""],
+        ["Apparel", "Jackets, T-Shirts, etcetera.", "15.00 USD", ""],
+        ["Drinkware", "Cups, Mugs, Water Bottles, and Flasks.", "8.00 USD", ""],
+        ["Electronic Tablets", "IPad, Amazon Kindle Fire, etcetera.", "100.00 USD", ""],
+        ["Candy", "Company-themed Candy.", "1.00 USD", ""]
+     ]
+}

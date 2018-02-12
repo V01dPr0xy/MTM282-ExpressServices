@@ -1,0 +1,12 @@
+{
+    "services_caskets": [
+        ["Buy a casket from our latest collection", "Latest collection: Death is Divine", "2,000.00 USD", ""],
+        ["Create your own casket", "Create your own casket from our creator", "2,800.00 USD", ""],
+        ["Special Dinotopica Casket", "Our special casket is pricey, but when you enter it and come out, you'll be free!", "3,000.00 USD", ""],
+        ["Tanning Casket", "THis is a sun tanning bed modeled after a casket. Just hop in... and tan", "3,500.00 USD", ""],
+        ["Jack The Ripper Special Edition Casket", "This casket comes with Jack's theme mustic when you open and close the specially-designed casket", "5,000.00 USD", ""],
+        ["Zodiac Killer Special Edition Casket", "This casket comes with Zodiac's theme music when you open and close the specially-designed casket", "5,000.00 USD", ""],
+        ["Ash-Scattering Rockets", "A rocket that flies into the air and explodes with the ashes of the fallen person of your choosing. They'll fly away and go out with a bang! (Requires you to sign your soul away to the Devil if we have to kill the person and cremate them)", "90.00 USD", ""],
+        ["Cremation Urns", "An urn that holds the remains of the deceased. You can put anything of that person's that you want in it", "30.00 USD", ""]
+     ]
+}

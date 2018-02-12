@@ -1,0 +1,15 @@
+extends layout
+block links
+    link(href="servicesDetail.css" rel="stylesheet")
+block content
+    doctype html
+    html
+        head
+        body
+            ul
+                each item in casketsItem
+                    img.serviceImage(src= item[1])
+                    div(class='service_items')
+                            li(id=item[0]) #{item[0]}
+                            li(id=item[2]) #{item[2]}
+                            li(id=item[3]) #{item[3]}
