@@ -2,6 +2,10 @@ var express = require('express');
 var pug = require('pug');
 var path = require('path');
 var data = require('./data/data');
+var config = require("./config.json");
+var caskets = require("./casketsItem.json");
+var cardgames = require("./cardgamesItem.json");
+var wifi = require("./wifiItem.json");
 var bp = require('body-parser');
 var fs = require('fs');
 var app = express();
@@ -14,24 +18,51 @@ var urlencodedparser = bp.urlencoded({ extended: false });
 app.get('/', function (req, res) {
    res.render('home', {
        "title": "Home",
-       "config": data
+       "config": config,
+       "casketItem" : caskets,
+        "cardgamesItem" : cardgames,
+        "wifiItems" : wifi
    });
 });
 
 app.get('/order', function (req, res) {
    res.render('orders', {
        "title": "Home",
-       "config": data
+       "config": config,
+       "casketItem" : caskets,
+        "cardgamesItem" : cardgames,
+        "wifiItems" : wifi
    });
 });
 
-app.get('/services', function (req, res) {
-   res.render('services', {
+app.get('/services_caskets', function (req, res) {
+   res.render('caskets', {
        "title": "Home",
-       "config": data
+       "config": config,
+       "casketsItem" : caskets,
+        "cardgamesItem" : cardgames,
+        "wifiItems" : wifi
    });
 });
 
+app.get('/services_cardgames', function (req, res) {
+    res.render('cardgames', {
+        "title": "Home",
+        "config": config,
+        "casketItem" : caskets,
+         "cardgamesItem" : cardgames,
+         "wifiItems" : wifi
+    });
+ });
+ app.get('/services_wifi', function (req, res) {
+    res.render('wifi', {
+        "title": "Home",
+        "config": config,
+        "casketItem" : caskets,
+         "cardgamesItem" : cardgames,
+         "wifiItems" : wifi
+    });
+ });
 app.post('/submitted', urlencodedparser, function(req, res){
    res.render('submitted', {
       isChecked: ""
