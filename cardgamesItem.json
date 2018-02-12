@@ -1,6 +1,6 @@
 {
     "services_cardgames": [
-        ["Make Your Own Deck (MYOD)", "Basic Deck, No Foils.", "15.00 USD", "./public/images/makeYourOwnDeack.jpg"],
+        ["Make Your Own Deck (MYOD)", "Basic Deck, No Foils.", "15.00 USD", "/images/makeYourOwnDeack.jpg"],
         ["Card Creator", "Create your own unique card to put into the game for a future release of an expansion.", "10.00 USD", ""],
         ["Adding shine to the cards", "Different kind of foils/patterned designs.", "20.00 USD", ""],
         ["Enter a drawing to win prizes", "Pay for tickets to enter the drawing.", "5.00 USD", ""],
