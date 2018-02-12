@@ -2,14 +2,12 @@ extends layout
 block links
     link(href="style/servicesDetail.css" rel="stylesheet")
 block content
-    doctype html
-    html
-        head
-        body
-            ul
-                each item in wifiItem
-                    img.serviceImage(src= item[1])
-                    div(class='service_items')
-                            li(id=item[0]) #{item[0]}
-                            li(id=item[2]) #{item[2]}
-                            li(id=item[3]) #{item[3]}
+    div
+        each taco in wifiItem
+            div(class='service_items')
+                each item in taco
+                    img.serviceImage(src= item[3])
+                    ul
+                        li(id=item[0]) #{item[0]}
+                        li(id=item[1]) #{item[1]}
+                        li(id=item[2]) #{item[2]}

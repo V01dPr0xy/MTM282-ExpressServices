@@ -1,1 +1,9 @@
 extends layout
+
+block content
+    div
+        each group in config
+            div
+                each item in group
+                    div
+                        p=item

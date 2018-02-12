@@ -2,6 +2,7 @@ extends layout
 block links
     link(href="style/servicesDetail.css" rel="stylesheet")
 block content
+<<<<<<< HEAD
     doctype html
     html
         head
@@ -15,3 +16,14 @@ block content
                             li(id=i[2]) #{i[2]}
                             - console.log(i[3])
                             img.image(src=""+i[3], alt="")
+=======
+    div
+        each taco in cardgamesItem
+            div(class='service_items')
+                each item in taco
+                    img.serviceImage(src= item[3])
+                    ul
+                        li(id=item[0]) #{item[0]}
+                        li(id=item[1]) #{item[1]}
+                        li(id=item[2]) #{item[2]}
+>>>>>>> d5853fb3ec54fa1caffb5040b8bb9c35d47331fc
