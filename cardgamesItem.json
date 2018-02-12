@@ -1,12 +1,12 @@
 {
     "services_cardgames": [
-        ["Make Your Own Deck (MYOD)", "Basic Deck, No Foils.", "15.00 USD", ""],
+        ["Make Your Own Deck (MYOD)", "Basic Deck, No Foils.", "15.00 USD", "/images/makeYourOwnDeack.jpg"],
         ["Card Creator", "Create your own unique card to put into the game for a future release of an expansion.", "10.00 USD", ""],
         ["Adding shine to the cards", "Different kind of foils/patterned designs.", "20.00 USD", ""],
         ["Enter a drawing to win prizes", "Pay for tickets to enter the drawing.", "5.00 USD", ""],
         ["Meme-stery Box", "Buy a mystery box and see what you get.", "30.00 USD", ""],
         ["Meme-Party", "The teams behind Memes Company will come to your house and set up a party. Either can be paid for with lots of money or a win from the drawing.", "100.00 USD", ""],
-        ["Meme-Private Party", "You get to go on a private cruise with the team behind Memes COmpany and party. Either can be paid for with even more money than Meme-Party or win it froma drawing", "300.00 USD", ""],
+        ["Meme-Private Party", "You get to go on a private cruise with the team behind Memes Company and party. Either can be paid for with even more money than Meme-Party or win it froma drawing", "300.00 USD", ""],
         ["Meme-Park", "Win a trip to Meme-Park by sending Memes Company your best created Meme you can think of.", "3,000.00 USD", ""]
      ]
 }

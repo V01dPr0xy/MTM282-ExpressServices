@@ -1,9 +1,10 @@
 {
     "menu":[
     ["Home", "/"],
-    ["Coffins", "services_caskets"],
+    ["Caskets", "services_caskets"],
     ["Card Games", "services_cardgames"],
-    ["Wifi", "services_wifi"]
+    ["Wifi", "services_wifi"],
+    ["Orders", "order"]
     ]
 
 }
