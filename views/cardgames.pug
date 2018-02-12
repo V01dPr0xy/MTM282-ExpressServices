@@ -1,6 +1,6 @@
 extends layout
 block links
-    link(href="servicesDetail.css" rel="stylesheet")
+    link(href="style/servicesDetail.css" rel="stylesheet")
 block content
     doctype html
     html
@@ -8,8 +8,10 @@ block content
         body
             ul
                 each item in cardgamesItem
-                    img.serviceImage(src= item[1])
-                    div(class='service_items')
-                            li(id=item[0]) #{item[0]}
-                            li(id=item[2]) #{item[2]}
-                            li(id=item[3]) #{item[3]}
+                    each i in item
+                        div(class='service_items')
+                            li(id=i[0]) #{i[0]}
+                            li(id=i[1]) #{i[1]}
+                            li(id=i[2]) #{i[2]}
+                            - console.log(i[3])
+                            img.image(src=""+i[3], alt="")
