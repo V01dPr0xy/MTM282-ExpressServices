@@ -1,15 +1,11 @@
 var express = require('express');
 var pug = require('pug');
 var path = require('path');
-<<<<<<< HEAD
-var data = require('./data/data.json');
-=======
 var data = require('./data/data');
 var config = require("./config.json");
 var caskets = require("./casketsItem.json");
 var cardgames = require("./cardgamesItem.json");
 var wifi = require("./wifiItem.json");
->>>>>>> a6bc618d914ab35829e8fbfad65267a5573deca5
 var bp = require('body-parser');
 var fs = require('fs');
 var app = express();
@@ -31,18 +27,6 @@ app.get('/', function (req, res) {
 
 app.get('/order', function (req, res) {
    res.render('orders', {
-<<<<<<< HEAD
-       "title": "Orders",
-       "config": data
-   });
-});
-
-app.get('/services', function (req, res) {
-    console.log(data);
-   res.render('services', {
-       "title": "Services",
-       "config": data
-=======
        "title": "Home",
        "config": config,
        "casketItem" : caskets,
@@ -56,7 +40,6 @@ app.get('/services_caskets', function (req, res) {
        "title": "Home",
        "config": config,
        "casketsItem" : caskets
->>>>>>> a6bc618d914ab35829e8fbfad65267a5573deca5
    });
 });
 
