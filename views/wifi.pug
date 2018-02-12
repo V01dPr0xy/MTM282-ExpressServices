@@ -7,7 +7,7 @@ block content
         head
         body
             ul
-                each item in wifiItem in services_wifi
+                each item in wifiItem
                     img.serviceImage(src= item[1])
                     div(class='service_items')
                             li(id=item[0]) #{item[0]}
