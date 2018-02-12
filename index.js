@@ -1,7 +1,7 @@
 var express = require('express');
 var pug = require('pug');
 var path = require('path');
-var data = require('./data/data');
+var data = require('./data/data.json');
 var bp = require('body-parser');
 var fs = require('fs');
 var app = express();
@@ -20,14 +20,15 @@ app.get('/', function (req, res) {
 
 app.get('/order', function (req, res) {
    res.render('orders', {
-       "title": "Home",
+       "title": "Orders",
        "config": data
    });
 });
 
 app.get('/services', function (req, res) {
+    console.log(data);
    res.render('services', {
-       "title": "Home",
+       "title": "Services",
        "config": data
    });
 });
