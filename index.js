@@ -31,36 +31,30 @@ app.get('/order', function (req, res) {
        "config": config,
        "casketItem" : caskets,
         "cardgamesItem" : cardgames,
-        "wifiItems" : wifi
+        "wifiItem" : wifi
    });
 });
 
 app.get('/services_caskets', function (req, res) {
    res.render('caskets', {
-       "title": "Home",
+       "title": "Caskets",
        "config": config,
-       "casketsItem" : caskets,
-        "cardgamesItem" : cardgames,
-        "wifiItems" : wifi
+       "casketsItem" : caskets
    });
 });
 
 app.get('/services_cardgames', function (req, res) {
     res.render('cardgames', {
-        "title": "Home",
+        "title": "Card Games",
         "config": config,
-        "casketItem" : caskets,
-         "cardgamesItem" : cardgames,
-         "wifiItems" : wifi
+        "cardgamesItem" : cardgames
     });
  });
  app.get('/services_wifi', function (req, res) {
     res.render('wifi', {
-        "title": "Home",
+        "title": "WiFi",
         "config": config,
-        "casketItem" : caskets,
-         "cardgamesItem" : cardgames,
-         "wifiItems" : wifi
+        "wifiItem" : wifi
     });
  });
 app.post('/submitted', urlencodedparser, function(req, res){

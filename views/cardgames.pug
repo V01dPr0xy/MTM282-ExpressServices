@@ -2,14 +2,12 @@ extends layout
 block links
     link(href="servicesDetail.css" rel="stylesheet")
 block content
-    doctype html
-    html
-        head
-        body
-            ul
-                each item in cardgamesItem in services_cardgames
-                    img.serviceImage(src= item[1])
-                    div(class='service_items')
-                            li(id=item[0]) #{item[0]}
-                            li(id=item[2]) #{item[2]}
-                            li(id=item[3]) #{item[3]}
+    div
+        each taco in cardgamesItem
+            div(class='service_items')
+                each item in taco
+                    img.serviceImage(src= item[3])
+                    ul
+                        li(id=item[0]) #{item[0]}
+                        li(id=item[1]) #{item[1]}
+                        li(id=item[2]) #{item[2]}
