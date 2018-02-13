@@ -19,3 +19,25 @@
     height:auto;
 }
 
+.item1 {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: auto;
+    text-align: center;
+}
+
+.item2 {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    height: auto;
+    text-align: center;
+}
+
+.item3 {
+    align-content: center;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}

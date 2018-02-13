@@ -2,4 +2,5 @@ extends layout
 
 block content
    p
-      div
+      div.item1 Thank you for Ordering!
+      - order.writer.appendFile('./public/data.txt', order.Values.join(', ') + '\n')

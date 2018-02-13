@@ -1,1 +1,162 @@
 extends layout
+block links
+    link(href="style/servicesDetail.css" rel="stylesheet")
+
+block content
+   h3 div title
+   form(id='form', method='post', action='/submitted')
+      p.item1 Name:
+         input(type='text', name='name', class='item1')      
+      p.item2 Address:
+         input(type='text', name='address', class='item2')      
+      p.item1 Phone:
+         input(type='text', name='phone', class='item1')
+        
+      
+      ul
+         div(class='service_items')
+            li(id=cardgamesItem.services_cardgames[0][0]) #{cardgamesItem.services_cardgames[0][0]}
+            img.image(src=cardgamesItem.services_cardgames[0][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="cardgame1", value=cardgamesItem.services_cardgames[0][0])
+         
+      ul
+         div(class='service_items')
+            li(id=cardgamesItem.services_cardgames[1][0]) #{cardgamesItem.services_cardgames[1][0]}
+            img.image(src=cardgamesItem.services_cardgames[1][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="cardgame2", value=cardgamesItem.services_cardgames[1][0])
+         
+      ul
+         div(class='service_items')
+            li(id=cardgamesItem.services_cardgames[2][0]) #{cardgamesItem.services_cardgames[2][0]}
+            img.image(src=cardgamesItem.services_cardgames[2][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="cardgame3", value=cardgamesItem.services_cardgames[2][0])
+         
+      ul
+         div(class='service_items')
+            li(id=cardgamesItem.services_cardgames[3][0]) #{cardgamesItem.services_cardgames[3][0]}
+            img.image(src=cardgamesItem.services_cardgames[3][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="cardgame4", value=cardgamesItem.services_cardgames[3][0])
+         
+      ul
+         div(class='service_items')
+            li(id=cardgamesItem.services_cardgames[4][0]) #{cardgamesItem.services_cardgames[4][0]}
+            img.image(src=cardgamesItem.services_cardgames[4][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="cardgame5", value=cardgamesItem.services_cardgames[4][0])
+         
+      ul
+         div(class='service_items')
+            li(id=cardgamesItem.services_cardgames[5][0]) #{cardgamesItem.services_cardgames[5][0]}
+            img.image(src=cardgamesItem.services_cardgames[5][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="cardgame6", value=cardgamesItem.services_cardgames[5][0])
+         
+      ul
+         div(class='service_items')
+            li(id=cardgamesItem.services_cardgames[6][0]) #{cardgamesItem.services_cardgames[6][0]}
+            img.image(src=cardgamesItem.services_cardgames[6][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="cardgame7", value=cardgamesItem.services_cardgames[6][0])
+         
+      ul
+         div(class='service_items')
+            li(id=cardgamesItem.services_cardgames[7][0]) #{cardgamesItem.services_cardgames[7][0]}
+            img.image(src=cardgamesItem.services_cardgames[7][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="cardgame8", value=cardgamesItem.services_cardgames[7][0])
+         
+
+      ul
+         div(class='service_items')
+            li(id=casketsItem.services_caskets[0][0]) #{casketsItem.services_caskets[0][0]}
+            img.image(src=casketsItem.services_caskets[0][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="caskets1", value=casketsItem.services_caskets[0][0])
+         
+      ul
+         div(class='service_items')
+            li(id=casketsItem.services_caskets[1][0]) #{casketsItem.services_caskets[1][0]}
+            img.image(src=casketsItem.services_caskets[1][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="caskets2", value=casketsItem.services_caskets[1][0])
+         
+      ul
+         div(class='service_items')
+            li(id=casketsItem.services_caskets[2][0]) #{casketsItem.services_caskets[2][0]}
+            img.image(src=casketsItem.services_caskets[2][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="caskets3", value=casketsItem.services_caskets[2][0])
+         
+      ul
+         div(class='service_items')
+            li(id=casketsItem.services_caskets[3][0]) #{casketsItem.services_caskets[3][0]}
+            img.image(src=casketsItem.services_caskets[3][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="caskets4", value=casketsItem.services_caskets[3][0])
+         
+      ul
+         div(class='service_items')
+            li(id=casketsItem.services_caskets[4][0]) #{casketsItem.services_caskets[4][0]}
+            img.image(src=casketsItem.services_caskets[4][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="caskets5", value=casketsItem.services_caskets[4][0])
+         
+      ul
+         div(class='service_items')
+            li(id=casketsItem.services_caskets[5][0]) #{casketsItem.services_caskets[5][0]}
+            img.image(src=casketsItem.services_caskets[5][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="caskets6", value=casketsItem.services_caskets[5][0])
+         
+      ul
+         div(class='service_items')
+            li(id=casketsItem.services_caskets[6][0]) #{casketsItem.services_caskets[6][0]}
+            img.image(src=casketsItem.services_caskets[6][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="caskets7", value=casketsItem.services_caskets[6][0])
+         
+      ul
+         div(class='service_items')
+            li(id=casketsItem.services_caskets[7][0]) #{casketsItem.services_caskets[7][0]}
+            img.image(src=casketsItem.services_caskets[7][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="caskets8", value=casketsItem.services_caskets[7][0])
+
+      ul
+         div(class='service_items')
+            li(id=wifiItem.services_wifi[0][0]) #{wifiItem.services_wifi[0][0]}
+            img.image(src=wifiItem.services_wifi[0][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="wifi1", value=wifiItem.services_wifi[0][0])
+         
+      ul
+         div(class='service_items')
+            li(id=wifiItem.services_wifi[1][0]) #{wifiItem.services_wifi[1][0]}
+            img.image(src=wifiItem.services_wifi[1][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="wifi2", value=wifiItem.services_wifi[1][0])
+         
+      ul
+         div(class='service_items')
+            li(id=wifiItem.services_wifi[2][0]) #{wifiItem.services_wifi[2][0]}
+            img.image(src=wifiItem.services_wifi[2][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="wifi3", value=wifiItem.services_wifi[2][0])
+         
+      ul
+         div(class='service_items')
+            li(id=wifiItem.services_wifi[3][0]) #{wifiItem.services_wifi[3][0]}
+            img.image(src=wifiItem.services_wifi[3][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="wifi4", value=wifiItem.services_wifi[3][0])
+         
+      ul
+         div(class='service_items')
+            li(id=wifiItem.services_wifi[4][0]) #{wifiItem.services_wifi[4][0]}
+            img.image(src=wifiItem.services_wifi[4][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="wifi5", value=wifiItem.services_wifi[4][0])
+         
+      ul
+         div(class='service_items')
+            li(id=wifiItem.services_wifi[5][0]) #{wifiItem.services_wifi[5][0]}
+            img.image(src=wifiItem.services_wifi[5][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="wifi6", value=wifiItem.services_wifi[5][0])
+         
+      ul
+         div(class='service_items')
+            li(id=wifiItem.services_wifi[6][0]) #{wifiItem.services_wifi[6][0]}
+            img.image(src=wifiItem.services_wifi[6][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="wifi7", value=wifiItem.services_wifi[6][0])
+         
+      ul
+         div(class='service_items')
+            li(id=wifiItem.services_wifi[7][0]) #{wifiItem.services_wifi[7][0]}
+            img.image(src=wifiItem.services_wifi[7][3], alt="", height="75px", width="75px")
+         input(type='checkbox', name="wifi8", value=wifiItem.services_wifi[7][0])
+      p 
+         input(type='submit', value='Send it')
+      footer
