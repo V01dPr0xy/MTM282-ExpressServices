@@ -5,13 +5,15 @@ html
    block links
    title=title
   body
-      div(class="navbar-menu")
-        nav
-          ul
-            each item in config.menu
-              a(href=item[1])
-                div(class="menu_item")
-                  li(id=item[0]) #{item[0]}
-  block content
-  footer
-    p Copyright 2018 All-Purpose. All Rights Reserved
+    img.all_purposeImage(src="/images/allpurpouselogo.jpg")
+
+    div(class="navbar-menu")
+      nav
+        ul
+          each item in config.menu
+            a(href=item[1])
+              div(class="menu_item")
+                li(id=item[0]) #{item[0]}
+block content
+footer
+  p Copyright 2018 All-Purpose. All Rights Reserved

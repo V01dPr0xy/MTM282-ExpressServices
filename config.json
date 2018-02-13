@@ -1,8 +1,8 @@
 {
     "menu":[
-    ["Home", "/"],
-    ["Caskets", "services_caskets"],
     ["Card Games", "services_cardgames"],
+    ["Caskets", "services_caskets"],
+    ["Home", "/"],
     ["Wifi", "services_wifi"],
     ["Orders", "order"]
     ]

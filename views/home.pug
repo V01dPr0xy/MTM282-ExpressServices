@@ -1,8 +1,26 @@
 extends layout
 block links
-    link(href="style/servicesDetail.css" rel="stylesheet")
+    link(href="style/home.css" rel="stylesheet")
+
 block content
-    doctype html
-    html
-        head
-        body
+    img.mySlides.w3-animate-top(src="/images/lastestCollection.jpg")
+    img.mySlides.w3-animate-bottom(src="/images/cardCreator.png")
+    img.mySlides.w3-animate-top(src="/images/ultraGirlPackage.jpg")
+    
+    script.
+        var sIndex = 0;
+        productSlides();
+
+        function productSlides() {
+            var i;
+            var y = document.getElementsByClassName("mySlides");
+            for (i = 0; i < y.length; i++) {
+                y[i].style.display = "none"; 
+            }
+            sIndex++;
+            if (sIndex > y.length) {sIndex = 1} 
+            y[sIndex-1].style.display = "block"; 
+            setTimeout(productSlides, 2500); 
+        }
+    script(src="home.js")
+    
